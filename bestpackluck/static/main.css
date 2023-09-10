@@ -1,0 +1,80 @@
+body {
+  background: #1a1a1a; /* Dark background color */
+  color: #e0e0e0; /* Light text color */
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff0000; /* Red heading colors */
+}
+
+.bg-steel {
+  background-color: #282828; /* Darker background color */
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #ff0000; /* Red navigation link color */
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff; /* White navigation link color on hover */
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #2d2d2d; /* Darker background color */
+  padding: 10px 20px;
+  border: 1px solid #484848; /* Darker border color */
+  border-radius: 8px; /* Rounded border */
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #ff0000; /* Red article titles */
+}
+
+a.article-title:hover {
+  color: #ff3333; /* Lighter red article titles on hover */
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #404040; /* Darker border color */
+}
+
+.article-metadata a:hover {
+  color: #ff0000; /* Red links in article metadata on hover */
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 3rem; /* Larger font size for a more futuristic look */
+}
